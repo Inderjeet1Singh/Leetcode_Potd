@@ -11,6 +11,5 @@ public:
                 if(sentence[j-1]!=sentence[j+1]) return false;
                 j++;
         }
-        return true;
-    }
+        return true; }
 };
