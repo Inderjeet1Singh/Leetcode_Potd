@@ -8,7 +8,7 @@ public:
             }
         }
         int mid = 0 , sum = 0,ans = 0;
-        while(start<=end){
+        while(start<=end){ // Binary Search from 1 to maximum element to get Answer
              mid = start + (end - start)/2;
             sum = 0;
             for(int i=0;i<quantities.size();i++){
